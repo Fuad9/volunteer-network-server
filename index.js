@@ -9,6 +9,7 @@ const admin = require("firebase-admin");
 const multer = require("multer");
 const path = require("path");
 const fs = require("fs");
+const port = 5000;
 
 const app = express();
 app.use(bodyParser.json());
@@ -80,12 +81,6 @@ client.connect((err) => {
       res.send(documents);
     });
   });
-
-  // // to retrieve single data
-  // app.get("/showUserTasks", (req, res) => {
-  //   userTasks.find({}).toArray((err, documents) => {
-  //     res.send(documents);
-  //   });
 
   // to retrieve single data by JWT
   app.get("/showUserTasks", (req, res) => {
@@ -161,6 +156,4 @@ client.connect((err) => {
   });
 });
 
-app.listen(5000, () => {
-  console.log("listening at 5000");
-});
+app.listen(process.env.PORT || port);
