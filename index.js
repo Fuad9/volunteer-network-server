@@ -15,6 +15,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("hello it's working");
+});
+
 const serviceAccount = require("./configs/volunteer-network-ef243-firebase-adminsdk-3t40n-06a20fc994.json");
 
 admin.initializeApp({
