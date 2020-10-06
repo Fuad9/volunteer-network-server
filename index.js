@@ -23,7 +23,7 @@ const serviceAccount = require("./configs/volunteer-network-ef243-firebase-admin
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: process.env.DB_URL,
+  databaseURL: "https://volunteer-network-ef243.firebaseio.com",
 });
 
 const storage = multer.diskStorage({
