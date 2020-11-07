@@ -6,9 +6,9 @@ Live: [Click here](https://volunteer-network-ef243.web.app/)
 <br />
 Code: [Client](https://github.com/Fuad9/volunteer-network)
 <br />
-Resume: [Click here](https://drive.google.com/file/d/1mfl4mCKZxq-pfXHjtHf1CU-Fgbjs3x5G/view?usp=sharing)
+Resume: [Click here](https://drive.google.com/file/d/1MeVsJm8yHwUXvnvfv-XBqE7Al3NxKDih/view?usp=sharing)
 <br />
-LinkedIn: [Click here](https://www.linkedin.com/in/irtizaalfuad/)
+Portfolio: [Click here](https://fuad-portfolio.netlify.app/)
 
 ## About this project:
 
