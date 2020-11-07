@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/ngt65cj/volNet.png" alt="volunteer network" />
+<img src="https://i.ibb.co/Wg96LQk/vol-net1.png" alt="volunteer network" />
 
 # Volunteer Network
 
